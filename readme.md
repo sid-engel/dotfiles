@@ -5,7 +5,7 @@
   ## What's inside
 
   - `hypr/` - Hyprland config (Lua), copied from `~/.config/hypr/`
-    - `bindings.lua` - ALT-based binds (launchers, HJKL focus, workspaces), with conflicting SUPER defaults unbound
+    - `bindings.lua` - ALT-based binds (launchers, HJKL focus, workspaces, ALT+D push-to-talk dictation), with conflicting SUPER defaults unbound
     - `monitors.lua` - laptop + two 1080p externals
     - `looknfeel.lua` - no gaps, borders, blur, or animations
     - `input.lua` - keyboard repeat, compose on caps, touchpad scroll

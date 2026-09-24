@@ -46,7 +46,12 @@ o.bind(mod .. " + S", "Omarchy menu", "omarchy-menu toggle")
 o.bind(mod .. " + W", "Firefox", "firefox")
 o.bind(mod .. " + F", "File manager", { launch = "nautilus --new-window" })
 o.bind(mod .. " + O", "Obsidian", { launch = "obsidian" })
+o.bind(mod .. " + M", "Omarchy Spotify", "omarchy shell -q quickshell.spotify.player toggleFullPlayer")
 o.bind(mod .. " + ESCAPE", "Lock system", "omarchy-system-lock")
+
+-- Dictation (push-to-talk: hold to record, release to transcribe)
+o.bind(mod .. " + D", "Start dictation (push-to-talk)", "voxtype record start")
+o.bind(mod .. " + D", "Stop dictation (push-to-talk)", "voxtype record stop", { release = true })
 
 -- Toggle float + center current window
 o.bind(mod .. " + I", "Toggle float + center", function()

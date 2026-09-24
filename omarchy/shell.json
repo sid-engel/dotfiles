@@ -20,6 +20,9 @@
         },
         {
           "id": "omarchy.system-update"
+        },
+        {
+          "id": "quickshell.spotify"
         }
       ],
       "left": [
@@ -42,6 +45,9 @@
         },
         {
           "id": "omarchy.network"
+        },
+        {
+          "id": "io.github.grichard99.omaproton-vpn"
         },
         {
           "id": "omarchy.audio"
